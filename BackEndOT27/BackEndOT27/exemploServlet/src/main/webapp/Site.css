@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*Configuração Geral do Corpo Da Pagina*/
+body {
+	margin: 0 auto;
+	font-family: "Century Gothic", sans-serif;
+}
+
+section {
+	clear: both;
+	min-height: 360px;
+	width: 100%;
+	margin-top: 0px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+section p {
+	clear: both;
+	text-align: center;
+	margin: 10px 80px;
+}
+
+.faleconosco {
+	width: 300px;
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.faleconosco input, .faleconosco textarea, .faleconosco select {
+	padding: 5px 0px;
+	width: 100%;
+	margin: 5px;
+}
+
+.faleconosco textarea {
+	height: 100px;
+	resize: none;
+}
+
+.faleconosco button {
+	width: 30%;
+	margin: 0 10%;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #b1ccf5;
+}

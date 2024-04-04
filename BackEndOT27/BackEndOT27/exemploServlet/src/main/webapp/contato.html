@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/CSS" href="Site.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="site.js"></script>
+<title>FaleConosco(De novo?)</title>
+</head>
+<body>
+	<section>
+		<h2>Fale Conosco</h2>
+		<p>Novamente de novo continuando Contínuo</p>
+		<form name="frmfaleconosco" method="post" action="insereContato"
+			action="#" onsubmit="return validaFaleConosco()">
+			<fieldset class="faleconosco">
+				<legend>Dados Pessoais:</legend>
+				<label for="nome">Nome:</label> <input type="text" name="txtname"
+					id="nome" name="nome"> <label for="fone">Telefone:</label>
+				<input type="text" name="txtfone" id="fone"> <label
+					for="email">E-mail:</label> <input type="email" name="txtemail"
+					id="email" required>
+			</fieldset>
+
+			<fieldset class="faleconosco">
+				<button type="reset" onclick="verificaMotivo(null)">Limpar</button>
+				<button type="submit" onclick="validaFaleConosco()">Enviar</button>
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
